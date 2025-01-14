@@ -43,6 +43,16 @@ pip install -r requirements.txt
 2. Open the respective notebook **(32_features_file.ipynb or lstm_file.ipynb)** in Jupyter Notebook or Jupyter Lab.
 3. Follow the instructions within the notebook to preprocess the data, train the model, and evaluate performance.
 
-## Data
+## Results
+  - **Feature-Based Model:** Provides interpretability by analyzing specific features contributing to the score prediction.
+  - **LSTM-Based Model:** Leverages raw text data for improved performance but requires more computational resources.
+
+## Future Enhancements
+  - Integrate additional features like semantic analysis or topic modeling.
+  - Fine-tune the LSTM model using pre-trained embeddings (e.g., GloVe, BERT).
+  - Add an ensemble approach combining the strengths of both models.
+
+# License
+This project is licensed under the MIT License.
 
 
